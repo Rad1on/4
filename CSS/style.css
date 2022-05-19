@@ -332,12 +332,12 @@ h2.team-tittle{
   background-color: #2196f3
 }
 .client-container{
+  display: flex;
   justify-content: center;
   width: 170px;
   height: 92px;
   border: solid #AFB1B8;
   border-radius: 4px;
-  margin-bottom: 94px;
   }
   
   .client-container:not(:last-child) {
@@ -349,10 +349,10 @@ h2.team-tittle{
 .client-list{
   display: flex;
   justify-content: space-between;
-  
+  margin-bottom: 94px;
 }
 .client-icon{
-  width: 90px;
+
 }
 
 /* Portfolio //////////main///////// style  */
