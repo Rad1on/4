@@ -128,10 +128,15 @@ nav{
   align-items: center;
 }
 
-.header-address :hover,
-.header-address :focus {
-  color: var(--hover-focus-color);
-  fill: var(--hover-focus-color);
+.header-email:hover,
+.header-email:focus {
+  color:#2196f3;
+  fill: #2196f3;
+}
+
+.header-number:hover,
+.header-number:focus{
+color: #2196f3;
 }
 .header-address{
     width: 340px;}
@@ -353,16 +358,11 @@ h2.team-tittle{
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   }
-  .client:hover,
-  .client:focus{
+  a.client-link:hover,
+  a.client-link:focus{
     border-color: #2196f3;
-    fill: #2196f3;
+    color: #2196f3;
   }
-    .client-icon:hover,
-    .client-icon:focus {
-      border-color: #2196f3;
-      fill: #2196f3;
-    }
 
 .client-tittle {
   margin-bottom: 30px;
