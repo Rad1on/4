@@ -131,13 +131,12 @@ nav{
 .header-email:hover,
 .header-email:focus {
   color:#2196f3;
-  fill: #2196f3;
+}
+.header-number:hover,
+.header-number:focus {
+  color: #2196f3;
 }
 
-.header-number:hover,
-.header-number:focus{
-color: #2196f3;
-}
 .header-address{
     width: 340px;}
 
@@ -154,14 +153,14 @@ color: #2196f3;
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
 }
 
 .header-phone{
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: #757575;
+  fill:currentColor;
 }
 
 
@@ -170,7 +169,7 @@ color: #2196f3;
 .hero {
   background-position: center;
   background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-  url(/images/index-images/111.jpg);
+  url(../images/index-images/111.jpg);
   text-align: center;
   margin-bottom: 94px;
 }
@@ -357,12 +356,22 @@ h2.team-tittle{
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  fill: #AFB1B8;
   }
-  a.client-link:hover,
-  a.client-link:focus{
+  .client-icon{
+    width: 100px;
+    height: 100px;
+    padding-left:35px ;
+    padding-right:35px ;
+  }
+  .client:hover,
+  .client:focus{
     border-color: #2196f3;
-    color: #2196f3;
   }
+ .client-icon:hover,
+ .client-icon:focus{
+   fill: #2196f3;
+ }
 
 .client-tittle {
   margin-bottom: 30px;
@@ -484,7 +493,7 @@ main{
   }
 
 .footer-container{
-  margin-top: 72px;
+  margin-top: 60px;
   flex-direction: column;
 }
 .join-tittle{
@@ -494,7 +503,8 @@ main{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 .join-tittle{
   margin-bottom: 20px;
