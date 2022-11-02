@@ -74,7 +74,6 @@ header {
   margin-right: auto;
   width: 1200px;
   display: flex;
-  outline: 
 }
 
 .logo{
@@ -287,13 +286,19 @@ h2.team-tittle{
   padding: 90px 0px 0px 0px;
   margin-bottom: 50px;
 }
+
+
 .team{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
+.team-image{
+  margin-bottom: 30px;
+}
 .team > h3 {
   font-weight: 500;
   font-size: 16px;
@@ -322,7 +327,6 @@ h2.team-tittle{
   padding: 0px 0px 0px 0px;
   justify-content: space-between;
   margin-bottom: 94px;
-  background-color: #ffffff;
 }
 .team-icon-list{
   display: flex;
@@ -336,15 +340,16 @@ h2.team-tittle{
   margin-bottom: 40px;
   fill: #AFB1B8;
   padding: 12px;
-  background-color: #ffffff;
 }
 .team-icon:hover,
 .team-icon:focus{
   fill: #ffffff;
-  background-image: radial-gradient(circle at center,
+  background-color: #2196F3;
+  border-radius: 50%;
+  /* background-image: radial-gradient(circle at center,
     #2196f3 60%,
     #ffffff 60%
-  );
+  ); */
 }
 .client-tittle{
   margin-top: 94px;
