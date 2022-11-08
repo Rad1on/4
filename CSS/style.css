@@ -526,7 +526,7 @@ main{
 .join-one:not(:last-child) {
   margin-right: 10px;
 }
-.join-link{
+a.join-link{
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
@@ -539,6 +539,7 @@ main{
 .join-link:hover,
 .join-link:focus{
   background-color: #2196F3;
+  color: #ffffff;
 }
 
 .join-icon{
